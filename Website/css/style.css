@@ -141,6 +141,8 @@ section {
     z-index: -1;
 }
 
+
+
 .home.show-animate .home-content .text-animate h3::before {
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
@@ -674,6 +676,8 @@ span {
     background: var(--second-bg-color);
 }
 
+
+
 .footer-text,
 .footer-iconTop {
     position: relative;
@@ -752,9 +756,11 @@ span {
 }
 
 section:nth-child(even) .animate.scroll,
-.footer .animate.scroll {
+.footer .animate.scroll{
     background: var(--second-bg-color);
 }
+
+
 
 .education .education-box .animate.scroll {
     width: 105%;
